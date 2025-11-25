@@ -155,5 +155,6 @@ Feedstock Maintainers
 =====================
 
 * [@AngelFP](https://github.com/AngelFP/)
+* [@MaxThevenet](https://github.com/MaxThevenet/)
 * [@ax3l](https://github.com/ax3l/)
 
