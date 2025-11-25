@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 
 package:
   name: wake-t
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/AngelFP/Wake-T/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: bd7b45c5fa3bcb5db80028f8d22d929de8b819398281bfb7408caceb298bbbe1
+  sha256: 2f28f7fea9829ad72fefc7bead721d4ed2405b605058446a6817cee79ce0451b
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
